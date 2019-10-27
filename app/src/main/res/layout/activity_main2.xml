@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fonoappdefinitivo"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+   <EditText
+       android:id="@+id/textname"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="NOMBRE"
+       android:textColor="@android:color/white"
+       android:textColorHint="@android:color/white"
+       >
+   </EditText>
+    <EditText
+        android:id="@+id/textuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="USUARIO"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        ></EditText>
+    <EditText
+        android:id="@+id/textpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CONTRASEÑA"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        ></EditText>
+    <Button
+        android:id="@+id/buttonregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRARSE"
+        ></Button>
+
+    <Button
+        android:id="@+id/buttonanterior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Anterior"
+        android:text="ATRAS">
+
+    </Button>
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "716224222393",
+    "firebase_url": "https://rutfitness-4a747.firebaseio.com",
+    "project_id": "rutfitness-4a747",
+    "storage_bucket": "rutfitness-4a747.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716224222393:android:08100d16412e52bb3af768",
+        "android_client_info": {
+          "package_name": "com.example.rutinafitnn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716224222393-fl2eflsbivfs88cc3lqbni5rlcqmcaad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rutinafitnn",
+            "certificate_hash": "f670249d0422d59ab4cd87fe38d6085640d09530"
+          }
+        },
+        {
+          "client_id": "716224222393-3n286jngj2edvbdno9eghpmd0r49ofr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4OeI3W7FidhyogLnR6PSo4Irdj9wjzN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716224222393-3n286jngj2edvbdno9eghpmd0r49ofr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
