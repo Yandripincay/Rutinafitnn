@@ -7,4 +7,21 @@
     android:layout_height="match_parent"
     tools:context=".Main6Activity">
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="seleccione musculo a trabajar"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <ImageButton
+        android:id="@+id/biceps"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/iconobiceps"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="190dp">
+
+    </ImageButton>
 </androidx.constraintlayout.widget.ConstraintLayout>

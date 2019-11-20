@@ -3,12 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/fonoappdefinitivo"
     android:layout_height="match_parent"
-    tools:context=".Main7Activity">
-
+    android:background="@drawable/fonoappdefinitivo"
+    tools:context=".Main13Activity">
     <com.google.android.youtube.player.YouTubePlayerView
-        android:id="@+id/video_youtube"
+        android:id="@+id/video_youtube8"
         android:layout_width="250dp"
         android:layout_height="200dp"
 
@@ -18,6 +17,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,23 +11,23 @@ import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
 
-public class Main7Activity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener,YouTubePlayer.PlaybackEventListener {
-   String ClaveYoutube="AIzaSyBHTwlGGm3eQ48mr4Y-P3XlonSMB3ely0E";
+public class Main8Activity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener,YouTubePlayer.PlaybackEventListener {
+    String ClaveYoutube="AIzaSyBHTwlGGm3eQ48mr4Y-P3XlonSMB3ely0E";
     YouTubePlayerView mYoutube;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main7);
-        mYoutube=(YouTubePlayerView)findViewById(R.id.video_youtube);
+        setContentView(R.layout.activity_main8);
+        mYoutube=(YouTubePlayerView)findViewById(R.id.video_youtube2);
         mYoutube.initialize(ClaveYoutube,this);
 
     }
 
     @Override
     public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean fuerestaurado) {
-    if (!fuerestaurado){
-        youTubePlayer.cueVideo("laWlNXBtpkg");
-    }
+        if (!fuerestaurado){
+            youTubePlayer.cueVideo("CMu5sKJQG1Y");
+        }
     }
 
     @Override

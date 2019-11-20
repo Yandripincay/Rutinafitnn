@@ -14,7 +14,7 @@ public class Main5Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main5);
     }
     public void Siguiente(View view) {
-        Intent siguientE = new Intent(this, Main7Activity.class);
+        Intent siguientE = new Intent(Main5Activity.this, Biceps_ejercicios.class);
         startActivity(siguientE);
     }
 }
