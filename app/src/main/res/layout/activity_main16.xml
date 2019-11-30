@@ -4,6 +4,143 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fonoappdefinitivo"
     tools:context=".Main16Activity">
 
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="348dp"
+        android:layout_height="519dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="49dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/polealpecho"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/poleaalpecho"
+                android:onClick="Siguiente"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/poleatrasnuca"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/poleatrasnuca"
+                android:onClick="Anterior"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/polealpechoagarreestrecho"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/poleaalpechoconagarreestrecho"
+                android:onClick="Siguientes"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/remohorizontalmancuerna"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/remohorizontalaunamanoconmancuerna"
+                android:onClick="Piemancuerna"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/remoenpoleaagarreestrecho"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/remoenpoleabajaagarreestrecho"
+                android:onClick="Apoyomusculo"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/remomaquina"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/remoenmaquina"
+                android:onClick="Martillo"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/remohorizontalpronacion"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/remohorizontalconbarramanosenpronacion"
+                android:onClick="Poleaalta"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/remobarratapoyoalpecho"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/remoenbarraconapoyoalpecho"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/remomanosjuntas"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/remoalcuelloconmanosjuntas"></ImageButton>
+            <ImageButton
+                android:id="@+id/dominadasbarrafija"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/dominadasconbarrafija"></ImageButton>
+            <ImageButton
+                android:id="@+id/dominadasbarrafijaagarreestrecho"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/dominadasconbarrafijaagarreestrecho"></ImageButton>
+            <ImageButton
+                android:id="@+id/pulloverbrazosextendidos"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/pulloverconpoleaaltabrazosextendidos"></ImageButton>
+            <ImageButton
+                android:id="@+id/pesomuerto"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/pesomuerto"></ImageButton>
+            <ImageButton
+                android:id="@+id/remounamano"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/remoconbarraaunamano"></ImageButton>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="426dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="ELIJA EJERCICO DE ESPALDA A REALIZAR"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

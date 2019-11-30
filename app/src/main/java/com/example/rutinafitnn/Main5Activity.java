@@ -33,4 +33,20 @@ public class Main5Activity extends AppCompatActivity {
         Intent siguientE = new Intent(Main5Activity.this, Main16Activity.class);
         startActivity(siguientE);
     }
+    public void Hombro (View view) {
+        Intent siguientE = new Intent(Main5Activity.this, Main17Activity.class);
+        startActivity(siguientE);
+    }
+    public void Gluteos(View view) {
+        Intent siguientE = new Intent(Main5Activity.this, Main18Activity.class);
+        startActivity(siguientE);
+    }
+    public void Piernadelantera(View view) {
+        Intent siguientE = new Intent(Main5Activity.this, Main19Activity.class);
+        startActivity(siguientE);
+    }
+    public void Antebrazo(View view) {
+        Intent siguientE = new Intent(Main5Activity.this, Main20Activity.class);
+        startActivity(siguientE);
+    }
 }

@@ -8,7 +8,7 @@
     tools:context=".Main14Activity">
 
     <ScrollView
-        android:id="@+id/scrollView3"
+        android:id="@+id/scrollView5"
         android:layout_width="391dp"
         android:layout_height="606dp"
         android:layout_marginStart="1dp"
@@ -26,59 +26,151 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/tricepspolealta"
+                android:id="@+id/rodillascolgando"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
-                android:background="@drawable/extenciondetricepsenpoleaalta"
+                android:background="@drawable/elevacionderodillascolgando"
                 android:onClick="Siguiente"></ImageButton>
 
             <ImageButton
-                android:id="@+id/tricepspoleaaltasupinacion"
+                android:id="@+id/flexionlateralpeso"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
-                android:background="@drawable/extenciondetricepsenlapoleaaltamanosensupinacion"
+                android:background="@drawable/flexioneslateralesconpeso"
                 android:onClick="Anterior"></ImageButton>
 
             <ImageButton
-                android:id="@+id/tricepsalternadapolea"
+                android:id="@+id/crunchpolea"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
-                android:background="@drawable/extenciondetricepsalternadaenpolea"
+                android:background="@drawable/crunchenpolea"
                 android:onClick="Siguientes"></ImageButton>
 
             <ImageButton
-                android:id="@+id/tricepsverticalextencion"
+                android:id="@+id/curlabdominal"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
-                android:background="@drawable/extenciondetricepsverticalalternada"
+                android:background="@drawable/curlabdominal"
                 android:onClick="Piemancuerna"></ImageButton>
 
             <ImageButton
-                android:id="@+id/tricepsconmancuerna"
+                android:id="@+id/curlabdominaldeclinado"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
-                android:background="@drawable/extenciondetricepsadosmanosconamncuernas"
+                android:background="@drawable/curlabominaldeclinado"
                 android:onClick="Apoyomusculo"></ImageButton>
 
             <ImageButton
-                android:id="@+id/tricepsconbarra"
+                android:id="@+id/piernaenbanca"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
-                android:background="@drawable/extenciondetricepsconbarra"
+                android:background="@drawable/flexiondepiernaenbanca"
                 android:onClick="Martillo"></ImageButton>
 
             <ImageButton
-                android:id="@+id/extencioncodosmancuerna"
+                android:id="@+id/elevacionrodillaparalela"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
-                android:background="@drawable/extenciondecodoscnmancuerna"
+                android:background="@drawable/elevacionderodillasenparalela"
+                android:onClick="Poleaalta"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/rotaciontronco"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/rotaciondeltroncoconbaston"
+                android:onClick="Poleaalta"></ImageButton>
+            <ImageButton
+                android:id="@+id/twistpeso"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/twistconpeso"
+                android:onClick="Poleaalta"></ImageButton>
+            <ImageButton
+                android:id="@+id/elevaciontronco"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/elevacionesdeltroncoensuspencion"
+                android:onClick="Poleaalta"></ImageButton>
+            <ImageButton
+                android:id="@+id/troncobanco"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/flexioneslateralesdeltroncoenbanco"
+                android:onClick="Poleaalta"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/bancoinclinado"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/elevaciondepiernaenbancoinclnado"
+                android:onClick="Poleaalta"></ImageButton>
+            <ImageButton
+                android:id="@+id/encogimientomaquina"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/encogimientoabdominalesenmaquina"
+                android:onClick="Poleaalta"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/encogimientosuelo"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/encogimientodeoblicuosenelsuelo"
+                android:onClick="Poleaalta"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/bicicletaaire"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/bicicletaenelaire"
+                android:onClick="Poleaalta"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/toquetalon"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/toquedetalon"
+                android:onClick="Poleaalta"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/plancha"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/plancha"
+                android:onClick="Poleaalta"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/planchalateral"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/planchalateral"
+                android:onClick="Poleaalta"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/abdominalrueda"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/abdominalesconrueda"
                 android:onClick="Poleaalta"></ImageButton>
 
 
@@ -94,7 +186,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="11dp"
-        android:text="ELIJA EJERCICO DE BICEPS A REALIZAR"
+        android:text="ELIJA EJERCICO DE ABDOMEN A REALIZAR"
         android:textColor="@android:color/white"
         android:textSize="24dp"
         app:layout_constraintBottom_toTopOf="@+id/scrollView3"

@@ -8,7 +8,7 @@
     tools:context=".Main6Activity">
 
     <ScrollView
-        android:id="@+id/scrollView3"
+        android:id="@+id/scrollView6"
         android:layout_width="391dp"
         android:layout_height="606dp"
         android:layout_marginStart="1dp"
@@ -94,7 +94,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="11dp"
-        android:text="ELIJA EJERCICO DE BICEPS A REALIZAR"
+        android:text="ELIJA EJERCICO DE TRICEPS A REALIZAR"
         android:textColor="@android:color/white"
         android:textSize="24dp"
         app:layout_constraintBottom_toTopOf="@+id/scrollView3"

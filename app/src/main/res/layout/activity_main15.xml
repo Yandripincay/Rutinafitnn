@@ -4,6 +4,166 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fonoappdefinitivo"
     tools:context=".Main15Activity">
 
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="391dp"
+        android:layout_height="606dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="49dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/pressbanca"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/pressdebancaplano"
+                android:onClick="Siguiente"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/pressbancainclinado"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/pressdebancainclinado"
+                android:onClick="Anterior"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/pressbancadeclinado"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/pressdebancadeclinado"
+                android:onClick="Siguientes"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/pressmanosjuntas"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/pressdebancamanosjuntas"
+                android:onClick="Piemancuerna"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/aperturabancoplano"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/aperturaconmancuernasbancoplano"
+                android:onClick="Apoyomusculo"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/aperturabancoinclinado"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/aperturaconmancuernasbancoinclinado"
+                android:onClick="Martillo"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/fondobarraparalela"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/fondoenbarrasparalelas"
+                android:onClick="Poleaalta"></ImageButton>
+            <ImageButton
+                android:id="@+id/pullmancuerna"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/pulloverconmancuerna"
+                android:onClick="Poleaalta"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/pullbarra"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/pulloverconbarra"
+                android:onClick="Poleaalta"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/aperturacontractor"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/aperturaencontractordepecho"
+                android:onClick="Poleaalta"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/pressmancuernainclinado"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/pressconmancuernaenbancoinclinado"
+                android:onClick="Poleaalta"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/pressmancuernaplano"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/pressconmancuernaenbancoplano"
+                android:onClick="Poleaalta"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/crucepolea"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/cruceconpoleas"
+                android:onClick="Poleaalta"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/pressbarramaquina"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/pressdebarraenmaquina"
+                android:onClick="Poleaalta"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/flexionbazosuelo"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/flexionesdebrazoenelsuelo"
+                android:onClick="Poleaalta"></ImageButton>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="426dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="11dp"
+        android:text="ELIJA EJERCICO DE PECHO A REALIZAR"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
