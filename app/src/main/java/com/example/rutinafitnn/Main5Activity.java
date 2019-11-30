@@ -17,4 +17,20 @@ public class Main5Activity extends AppCompatActivity {
         Intent siguientE = new Intent(Main5Activity.this, Biceps_ejercicios.class);
         startActivity(siguientE);
     }
+    public void Triceps(View view) {
+        Intent siguientE = new Intent(Main5Activity.this, Main6Activity.class);
+        startActivity(siguientE);
+    }
+    public void Abdomen(View view) {
+        Intent siguientE = new Intent(Main5Activity.this, Main14Activity.class);
+        startActivity(siguientE);
+    }
+    public void Pecho(View view) {
+        Intent siguientE = new Intent(Main5Activity.this, Main15Activity.class);
+        startActivity(siguientE);
+    }
+    public void Espalda(View view) {
+        Intent siguientE = new Intent(Main5Activity.this, Main16Activity.class);
+        startActivity(siguientE);
+    }
 }

@@ -29,6 +29,7 @@
         android:layout_marginTop="185dp"
         android:layout_marginEnd="72dp"
         android:background="@drawable/icontriceps"
+        android:onClick="Triceps"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -43,6 +44,7 @@
         android:layout_marginEnd="72dp"
         android:layout_marginBottom="262dp"
         android:background="@drawable/pechoicon"
+        android:onClick="Pecho"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButton6"
@@ -56,6 +58,7 @@
         android:layout_marginTop="83dp"
         android:layout_marginBottom="71dp"
         android:background="@drawable/abdomenicon"
+        android:onClick="Abdomen"
         app:layout_constraintBottom_toTopOf="@+id/imageButton10"
         app:layout_constraintEnd_toStartOf="@+id/imageButton8"
         app:layout_constraintHorizontal_bias="0.0"
@@ -71,6 +74,7 @@
         android:layout_marginEnd="248dp"
         android:layout_marginBottom="101dp"
         android:background="@drawable/espaldaicon"
+        android:onClick="Espalda"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
