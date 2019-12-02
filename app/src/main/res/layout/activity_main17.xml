@@ -30,7 +30,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/presstrasnucaconbarra"
-                android:onClick="Siguiente"></ImageButton>
+                android:onClick="Numero68"></ImageButton>
 
             <ImageButton
                 android:id="@+id/pressfrontalbarra"
@@ -38,7 +38,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/pressfrontalconbarra"
-                android:onClick="Anterior"></ImageButton>
+                android:onClick="Numero69"></ImageButton>
 
             <ImageButton
                 android:id="@+id/presssentaddobarra"
@@ -46,7 +46,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/presssentadoconmancuerna"
-                android:onClick="Siguientes"></ImageButton>
+                android:onClick="Numero70"></ImageButton>
 
             <ImageButton
                 android:id="@+id/elevacionlateral"
@@ -54,7 +54,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/elevacioneslateralesdelosbrazosconmancuerna"
-                android:onClick="Piemancuerna"></ImageButton>
+                android:onClick="Numero71"></ImageButton>
 
             <ImageButton
                 android:id="@+id/elevacionestrocodela"
@@ -62,7 +62,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/elevacioneslateralestroncoinclinadohaciaadelante"
-                android:onClick="Apoyomusculo"></ImageButton>
+                android:onClick="Numero72"></ImageButton>
 
             <ImageButton
                 android:id="@+id/elevacionesfronmancuernas"
@@ -70,7 +70,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/elevacionesfrontalesalternasconmancuernas"
-                android:onClick="Martillo"></ImageButton>
+                android:onClick="Numero73"></ImageButton>
 
             <ImageButton
                 android:id="@+id/elevacionfrontalpolea"
@@ -78,32 +78,39 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/elevacionesfrontalesconpolea"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero74"></ImageButton>
 
             <ImageButton
                 android:id="@+id/elevacionfrontalbarra"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
-                android:background="@drawable/elevacionesfrontalesconbarra"></ImageButton>
+                android:background="@drawable/elevacionesfrontalesconbarra"
+                android:onClick="Numero75"></ImageButton>
+
             <ImageButton
                 android:id="@+id/remoalcuello"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
-                android:background="@drawable/remoalcullomanosseoaradas"></ImageButton>
+                android:background="@drawable/remoalcullomanosseoaradas"
+                android:onClick="Numero76"></ImageButton>
+
             <ImageButton
                 android:id="@+id/deltoidesmaquina"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
-                android:background="@drawable/deltoidesposteriorenmaquina"></ImageButton>
+                android:background="@drawable/deltoidesposteriorenmaquina"
+                android:onClick="Numero77"></ImageButton>
+
             <ImageButton
                 android:id="@+id/elevacionesacostadolado"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
-                android:background="@drawable/elevacioneslateralesacostadodelado"></ImageButton>
+                android:background="@drawable/elevacioneslateralesacostadodelado"
+                android:onClick="Numero78"></ImageButton>
 
         </LinearLayout>
 
