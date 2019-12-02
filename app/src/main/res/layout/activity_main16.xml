@@ -30,7 +30,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/poleaalpecho"
-                android:onClick="Siguiente"></ImageButton>
+                android:onClick="Numero31"></ImageButton>
 
             <ImageButton
                 android:id="@+id/poleatrasnuca"
@@ -38,7 +38,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/poleatrasnuca"
-                android:onClick="Anterior"></ImageButton>
+                android:onClick="Numero32"></ImageButton>
 
             <ImageButton
                 android:id="@+id/polealpechoagarreestrecho"
@@ -46,7 +46,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/poleaalpechoconagarreestrecho"
-                android:onClick="Siguientes"></ImageButton>
+                android:onClick="Numero33"></ImageButton>
 
             <ImageButton
                 android:id="@+id/remohorizontalmancuerna"
@@ -54,7 +54,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/remohorizontalaunamanoconmancuerna"
-                android:onClick="Piemancuerna"></ImageButton>
+                android:onClick="Numero34"></ImageButton>
 
             <ImageButton
                 android:id="@+id/remoenpoleaagarreestrecho"
@@ -62,7 +62,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/remoenpoleabajaagarreestrecho"
-                android:onClick="Apoyomusculo"></ImageButton>
+                android:onClick="Numero35"></ImageButton>
 
             <ImageButton
                 android:id="@+id/remomaquina"
@@ -70,7 +70,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/remoenmaquina"
-                android:onClick="Martillo"></ImageButton>
+                android:onClick="Numero36"></ImageButton>
 
             <ImageButton
                 android:id="@+id/remohorizontalpronacion"
@@ -78,51 +78,63 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/remohorizontalconbarramanosenpronacion"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero37"></ImageButton>
 
             <ImageButton
                 android:id="@+id/remobarratapoyoalpecho"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
-                android:background="@drawable/remoenbarraconapoyoalpecho"></ImageButton>
+                android:background="@drawable/remoenbarraconapoyoalpecho"
+                android:onClick="Numero38"></ImageButton>
 
             <ImageButton
                 android:id="@+id/remomanosjuntas"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
-                android:background="@drawable/remoalcuelloconmanosjuntas"></ImageButton>
+                android:background="@drawable/remoalcuelloconmanosjuntas"
+                android:onClick="Numero39"></ImageButton>
+
             <ImageButton
                 android:id="@+id/dominadasbarrafija"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
-                android:background="@drawable/dominadasconbarrafija"></ImageButton>
+                android:background="@drawable/dominadasconbarrafija"
+                android:onClick="Numero40"></ImageButton>
+
             <ImageButton
                 android:id="@+id/dominadasbarrafijaagarreestrecho"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
-                android:background="@drawable/dominadasconbarrafijaagarreestrecho"></ImageButton>
+                android:background="@drawable/dominadasconbarrafijaagarreestrecho"
+                android:onClick="Numero41"></ImageButton>
+
             <ImageButton
                 android:id="@+id/pulloverbrazosextendidos"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
-                android:background="@drawable/pulloverconpoleaaltabrazosextendidos"></ImageButton>
+                android:background="@drawable/pulloverconpoleaaltabrazosextendidos"
+                android:onClick="Numero42"></ImageButton>
+
             <ImageButton
                 android:id="@+id/pesomuerto"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
-                android:background="@drawable/pesomuerto"></ImageButton>
+                android:background="@drawable/pesomuerto"
+                android:onClick="Numero43"></ImageButton>
+
             <ImageButton
                 android:id="@+id/remounamano"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
-                android:background="@drawable/remoconbarraaunamano"></ImageButton>
+                android:background="@drawable/remoconbarraaunamano"
+                android:onClick="Numero44"></ImageButton>
 
         </LinearLayout>
 

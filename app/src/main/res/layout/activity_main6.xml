@@ -31,7 +31,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/extenciondetricepsenpoleaalta"
-                android:onClick="Siguiente"></ImageButton>
+                android:onClick="Numero1"></ImageButton>
 
             <ImageButton
                 android:id="@+id/tricepspoleaaltasupinacion"
@@ -39,7 +39,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/extenciondetricepsenlapoleaaltamanosensupinacion"
-                android:onClick="Anterior"></ImageButton>
+                android:onClick="Numero2"></ImageButton>
 
             <ImageButton
                 android:id="@+id/tricepsalternadapolea"
@@ -47,7 +47,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/extenciondetricepsalternadaenpolea"
-                android:onClick="Siguientes"></ImageButton>
+                android:onClick="Numero3"></ImageButton>
 
             <ImageButton
                 android:id="@+id/tricepsverticalextencion"
@@ -55,7 +55,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/extenciondetricepsverticalalternada"
-                android:onClick="Piemancuerna"></ImageButton>
+                android:onClick="Numero4"></ImageButton>
 
             <ImageButton
                 android:id="@+id/tricepsconmancuerna"
@@ -63,7 +63,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/extenciondetricepsadosmanosconamncuernas"
-                android:onClick="Apoyomusculo"></ImageButton>
+                android:onClick="Numero5"></ImageButton>
 
             <ImageButton
                 android:id="@+id/tricepsconbarra"
@@ -71,7 +71,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/extenciondetricepsconbarra"
-                android:onClick="Martillo"></ImageButton>
+                android:onClick="Numero6"></ImageButton>
 
             <ImageButton
                 android:id="@+id/extencioncodosmancuerna"
@@ -79,7 +79,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/extenciondecodoscnmancuerna"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero7"></ImageButton>
 
 
         </LinearLayout>

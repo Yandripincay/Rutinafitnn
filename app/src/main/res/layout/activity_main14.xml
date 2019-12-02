@@ -31,7 +31,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/elevacionderodillascolgando"
-                android:onClick="Siguiente"></ImageButton>
+                android:onClick="Numero8"></ImageButton>
 
             <ImageButton
                 android:id="@+id/flexionlateralpeso"
@@ -39,7 +39,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/flexioneslateralesconpeso"
-                android:onClick="Anterior"></ImageButton>
+                android:onClick="Numero9"></ImageButton>
 
             <ImageButton
                 android:id="@+id/crunchpolea"
@@ -47,7 +47,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/crunchenpolea"
-                android:onClick="Siguientes"></ImageButton>
+                android:onClick="Numero10"></ImageButton>
 
             <ImageButton
                 android:id="@+id/curlabdominal"
@@ -55,7 +55,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/curlabdominal"
-                android:onClick="Piemancuerna"></ImageButton>
+                android:onClick="Numero11"></ImageButton>
 
             <ImageButton
                 android:id="@+id/curlabdominaldeclinado"
@@ -63,7 +63,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/curlabominaldeclinado"
-                android:onClick="Apoyomusculo"></ImageButton>
+                android:onClick="Numero12"></ImageButton>
 
             <ImageButton
                 android:id="@+id/piernaenbanca"
@@ -71,7 +71,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/flexiondepiernaenbanca"
-                android:onClick="Martillo"></ImageButton>
+                android:onClick="Numero13"></ImageButton>
 
             <ImageButton
                 android:id="@+id/elevacionrodillaparalela"
@@ -79,7 +79,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/elevacionderodillasenparalela"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero14"></ImageButton>
 
             <ImageButton
                 android:id="@+id/rotaciontronco"
@@ -87,28 +87,31 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/rotaciondeltroncoconbaston"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero15"></ImageButton>
+
             <ImageButton
                 android:id="@+id/twistpeso"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/twistconpeso"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero16"></ImageButton>
+
             <ImageButton
                 android:id="@+id/elevaciontronco"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/elevacionesdeltroncoensuspencion"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero17"></ImageButton>
+
             <ImageButton
                 android:id="@+id/troncobanco"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/flexioneslateralesdeltroncoenbanco"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero18"></ImageButton>
 
             <ImageButton
                 android:id="@+id/bancoinclinado"
@@ -116,14 +119,15 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/elevaciondepiernaenbancoinclnado"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero19"></ImageButton>
+
             <ImageButton
                 android:id="@+id/encogimientomaquina"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/encogimientoabdominalesenmaquina"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero20"></ImageButton>
 
             <ImageButton
                 android:id="@+id/encogimientosuelo"
@@ -131,7 +135,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/encogimientodeoblicuosenelsuelo"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero21"></ImageButton>
 
             <ImageButton
                 android:id="@+id/bicicletaaire"
@@ -139,7 +143,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/bicicletaenelaire"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero22"></ImageButton>
 
             <ImageButton
                 android:id="@+id/toquetalon"
@@ -147,7 +151,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/toquedetalon"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero23"></ImageButton>
 
             <ImageButton
                 android:id="@+id/plancha"
@@ -155,7 +159,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/plancha"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero24"></ImageButton>
 
             <ImageButton
                 android:id="@+id/planchalateral"
@@ -163,7 +167,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/planchalateral"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero25"></ImageButton>
 
             <ImageButton
                 android:id="@+id/abdominalrueda"
@@ -171,7 +175,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/abdominalesconrueda"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero26"></ImageButton>
 
 
         </LinearLayout>
