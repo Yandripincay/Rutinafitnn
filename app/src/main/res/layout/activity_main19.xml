@@ -30,7 +30,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/sentadillasosquat"
-                android:onClick="Siguiente"></ImageButton>
+                android:onClick="Numero60"></ImageButton>
 
             <ImageButton
                 android:id="@+id/prensa"
@@ -38,7 +38,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/prensa"
-                android:onClick="Anterior"></ImageButton>
+                android:onClick="Numero61"></ImageButton>
 
             <ImageButton
                 android:id="@+id/extensiones"
@@ -46,7 +46,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/extensiones"
-                android:onClick="Siguientes"></ImageButton>
+                android:onClick="Numero62"></ImageButton>
 
             <ImageButton
                 android:id="@+id/sentadillafrontal"
@@ -54,7 +54,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/sentadillafrontal"
-                android:onClick="Piemancuerna"></ImageButton>
+                android:onClick="Numero63"></ImageButton>
 
             <ImageButton
                 android:id="@+id/flexionrodillaman"
@@ -62,7 +62,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/flexionderodillaconmancuerna"
-                android:onClick="Apoyomusculo"></ImageButton>
+                android:onClick="Numero64"></ImageButton>
 
             <ImageButton
                 android:id="@+id/sentadillahack"
@@ -70,7 +70,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/sentadillahack"
-                android:onClick="Martillo"></ImageButton>
+                android:onClick="Numero65"></ImageButton>
 
             <ImageButton
                 android:id="@+id/aductoresmaquina"
@@ -78,14 +78,15 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/aductoresenmaquina"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero66"></ImageButton>
 
             <ImageButton
                 android:id="@+id/aductorepoleabaja"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
-                android:background="@drawable/aductorespoleabaja"></ImageButton>
+                android:background="@drawable/aductorespoleabaja"
+                android:onClick="Numero67"></ImageButton>
 
         </LinearLayout>
 
