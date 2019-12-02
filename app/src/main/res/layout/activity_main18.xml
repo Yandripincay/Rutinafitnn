@@ -30,7 +30,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/zancadas"
-                android:onClick="Siguiente"></ImageButton>
+                android:onClick="Numero79"></ImageButton>
 
             <ImageButton
                 android:id="@+id/extesioncaderapolea"
@@ -38,7 +38,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/extensiondecaderaenpolea"
-                android:onClick="Anterior"></ImageButton>
+                android:onClick="Numero80"></ImageButton>
 
             <ImageButton
                 android:id="@+id/caderamaquina"
@@ -46,7 +46,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/extensiondelacaderaenmaquina"
-                android:onClick="Siguientes"></ImageButton>
+                android:onClick="Numero81"></ImageButton>
 
             <ImageButton
                 android:id="@+id/caderasuelo"
@@ -54,7 +54,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/extensiondelacaderaenelsuelo"
-                android:onClick="Piemancuerna"></ImageButton>
+                android:onClick="Numero82"></ImageButton>
 
             <ImageButton
                 android:id="@+id/pelvisenelsuelo"
@@ -62,7 +62,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/elevaciondelapelvisenelsuelo"
-                android:onClick="Apoyomusculo"></ImageButton>
+                android:onClick="Numero83"></ImageButton>
 
             <ImageButton
                 android:id="@+id/abducioncaderapiepolea"
@@ -70,7 +70,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/abduciondelacaderadepieenpoleabaja"
-                android:onClick="Martillo"></ImageButton>
+                android:onClick="Numero84"></ImageButton>
 
             <ImageButton
                 android:id="@+id/abducionpiemaquina"
@@ -78,20 +78,23 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/abduciondelacaderadepieenmaquina"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero85"></ImageButton>
 
             <ImageButton
                 android:id="@+id/caderaacostado"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
-                android:background="@drawable/abduciondecaderaacostado"></ImageButton>
+                android:background="@drawable/abduciondecaderaacostado"
+                android:onClick="Numero86"></ImageButton>
+
             <ImageButton
                 android:id="@+id/abductoresmaquina"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
-                android:background="@drawable/abductoressentadomaquina"></ImageButton>
+                android:background="@drawable/abductoressentadomaquina"
+                android:onClick="Numero87"></ImageButton>
 
         </LinearLayout>
 
