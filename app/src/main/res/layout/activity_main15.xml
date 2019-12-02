@@ -31,7 +31,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/pressdebancaplano"
-                android:onClick="Siguiente"></ImageButton>
+                android:onClick="Numero45"></ImageButton>
 
             <ImageButton
                 android:id="@+id/pressbancainclinado"
@@ -39,7 +39,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/pressdebancainclinado"
-                android:onClick="Anterior"></ImageButton>
+                android:onClick="Numero46"></ImageButton>
 
             <ImageButton
                 android:id="@+id/pressbancadeclinado"
@@ -47,7 +47,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/pressdebancadeclinado"
-                android:onClick="Siguientes"></ImageButton>
+                android:onClick="Numero47"></ImageButton>
 
             <ImageButton
                 android:id="@+id/pressmanosjuntas"
@@ -55,7 +55,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/pressdebancamanosjuntas"
-                android:onClick="Piemancuerna"></ImageButton>
+                android:onClick="Numero48"></ImageButton>
 
             <ImageButton
                 android:id="@+id/aperturabancoplano"
@@ -63,7 +63,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/aperturaconmancuernasbancoplano"
-                android:onClick="Apoyomusculo"></ImageButton>
+                android:onClick="Numero49"></ImageButton>
 
             <ImageButton
                 android:id="@+id/aperturabancoinclinado"
@@ -71,7 +71,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/aperturaconmancuernasbancoinclinado"
-                android:onClick="Martillo"></ImageButton>
+                android:onClick="Numero50"></ImageButton>
 
             <ImageButton
                 android:id="@+id/fondobarraparalela"
@@ -79,14 +79,15 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/fondoenbarrasparalelas"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero51"></ImageButton>
+
             <ImageButton
                 android:id="@+id/pullmancuerna"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/pulloverconmancuerna"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero52"></ImageButton>
 
             <ImageButton
                 android:id="@+id/pullbarra"
@@ -94,7 +95,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/pulloverconbarra"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero53"></ImageButton>
 
             <ImageButton
                 android:id="@+id/aperturacontractor"
@@ -102,7 +103,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/aperturaencontractordepecho"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero54"></ImageButton>
 
             <ImageButton
                 android:id="@+id/pressmancuernainclinado"
@@ -110,7 +111,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/pressconmancuernaenbancoinclinado"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero55"></ImageButton>
 
             <ImageButton
                 android:id="@+id/pressmancuernaplano"
@@ -118,7 +119,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/pressconmancuernaenbancoplano"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero56"></ImageButton>
 
             <ImageButton
                 android:id="@+id/crucepolea"
@@ -126,7 +127,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/cruceconpoleas"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero57"></ImageButton>
 
             <ImageButton
                 android:id="@+id/pressbarramaquina"
@@ -134,7 +135,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/pressdebarraenmaquina"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero58"></ImageButton>
 
             <ImageButton
                 android:id="@+id/flexionbazosuelo"
@@ -142,7 +143,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/flexionesdebrazoenelsuelo"
-                android:onClick="Poleaalta"></ImageButton>
+                android:onClick="Numero59"></ImageButton>
 
 
         </LinearLayout>
