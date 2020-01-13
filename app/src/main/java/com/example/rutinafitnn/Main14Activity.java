@@ -6,6 +6,26 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.rutinafitnn.abdomen.Main28Activity;
+import com.example.rutinafitnn.abdomen.Main29Activity;
+import com.example.rutinafitnn.abdomen.Main30Activity;
+import com.example.rutinafitnn.abdomen.Main31Activity;
+import com.example.rutinafitnn.abdomen.Main32Activity;
+import com.example.rutinafitnn.abdomen.Main33Activity;
+import com.example.rutinafitnn.abdomen.Main34Activity;
+import com.example.rutinafitnn.abdomen.Main35Activity;
+import com.example.rutinafitnn.abdomen.Main36Activity;
+import com.example.rutinafitnn.abdomen.Main37Activity;
+import com.example.rutinafitnn.abdomen.Main38Activity;
+import com.example.rutinafitnn.abdomen.Main39Activity;
+import com.example.rutinafitnn.abdomen.Main40Activity;
+import com.example.rutinafitnn.abdomen.Main41Activity;
+import com.example.rutinafitnn.abdomen.Main42Activity;
+import com.example.rutinafitnn.abdomen.Main43Activity;
+import com.example.rutinafitnn.abdomen.Main44Activity;
+import com.example.rutinafitnn.abdomen.Main45Activity;
+import com.example.rutinafitnn.abdomen.Main46Activity;
+
 public class Main14Activity extends AppCompatActivity {
 
     @Override

@@ -6,6 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.rutinafitnn.pierna.Main76Activity;
+import com.example.rutinafitnn.pierna.Main77Activity;
+import com.example.rutinafitnn.pierna.Main78Activity;
+import com.example.rutinafitnn.pierna.Main79Activity;
+import com.example.rutinafitnn.pierna.Main80Activity;
+import com.example.rutinafitnn.pierna.Main81Activity;
+import com.example.rutinafitnn.pierna.Main82Activity;
+import com.example.rutinafitnn.pierna.Main83Activity;
+
 public class Main19Activity extends AppCompatActivity {
 
     @Override

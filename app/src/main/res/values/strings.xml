@@ -1,3 +1,50 @@
 <resources>
     <string name="app_name">Rutinafitnn</string>
+    <string name="title_activity_main108">Main108Activity</string>
+    <string name="tabtext_1">Entrenamiento 1</string>
+    <string name="tabtext_2">Entrenamiento 2</string>
+    <string name="tabtext_3">Entrenamiento 3</string>
+    <string name="tabtext_4">Entrenamiento 4</string>
+    <string name="tabtext_5">Entrenamiento 5</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main110">Main110Activity</string>
+    <string name="tabtext1">Entrenamiento 1</string>
+    <string name="tabtext2">Entrenamiento 2</string>
+    <string name="tabtext3">Entrenamiento 3</string>
+    <string name="tabtext4">Entrenamiento 4</string>
+    <string name="tabtext5">Entrenamiento 5</string>
+    <string name="title_activity_main111">Main111Activity</string>
+    <string name="tabtriceps1">Entrenamiento 1</string>
+    <string name="tabtriceps2">Entrenamiento 2</string>
+    <string name="tabtriceps3">Entrenamiento 3</string>
+    <string name="tabtriceps4">Entrenamiento 4</string>
+    <string name="tabtriceps5">Entrenamiento 5</string>
+    <string name="title_activity_main112">Main112Activity</string>
+    <string name="tababdomen1">Entrenamiento 1</string>
+    <string name="tababdomen2">Entrenamiento 2</string>
+    <string name="tababdomen3">Entrenamiento 3</string>
+    <string name="tababdomen4">Entrenamiento 4</string>
+    <string name="tababdomen5">Entrenamiento 5</string>
+    <string name="title_activity_main113">Main113Activity</string>
+    <string name="tabhombro1">Entrenamiento 1</string>
+    <string name="tabhombro2">Entrenamiento 2</string>
+    <string name="tabhombro3">Entrenamiento 3</string>
+    <string name="tabhombro4">Entrenamiento 4</string>
+    <string name="tabhombro5">Entrenamiento 5</string>
+    <string name="title_activity_main114">Main114Activity</string>
+    <string name="espalda1">Entrenamiento 1</string>
+    <string name="espalda2">Entrenamiento 2</string>
+    <string name="espalda3">Entrenamiento 3</string>
+    <string name="espalda4">Entrenamiento 4</string>
+    <string name="espalda5">Entrenamiento 5</string>
+    <string name="title_activity_main115">Main115Activity</string>
+    <string name="gluteos1">Entrenamiento 1</string>
+    <string name="gluteos2">Entrenamiento 2</string>
+    <string name="gluteos3">Entrenamiento 3</string>
+    <string name="gluteos4">Entrenamiento 4</string>
+    <string name="gluteos5">Entrenamiento 5</string>
+
+
 </resources>

@@ -6,6 +6,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.rutinafitnn.hombro.Main84Activity;
+import com.example.rutinafitnn.hombro.Main85Activity;
+import com.example.rutinafitnn.hombro.Main86Activity;
+import com.example.rutinafitnn.hombro.Main87Activity;
+import com.example.rutinafitnn.hombro.Main88Activity;
+import com.example.rutinafitnn.hombro.Main89Activity;
+import com.example.rutinafitnn.hombro.Main90Activity;
+import com.example.rutinafitnn.hombro.Main91Activity;
+import com.example.rutinafitnn.hombro.Main92Activity;
+import com.example.rutinafitnn.hombro.Main93Activity;
+import com.example.rutinafitnn.hombro.Main94Activity;
+
 public class Main17Activity extends AppCompatActivity {
 
     @Override

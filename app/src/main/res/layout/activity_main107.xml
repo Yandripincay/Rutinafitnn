@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/fonoappdefinitivo"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="397dp"
+        android:layout_height="547dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="41dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="92dp"
+                android:layout_height="97dp"
+                android:layout_marginStart="72dp"
+                android:layout_marginEnd="71dp"
+                android:layout_marginBottom="38dp"
+                android:background="@drawable/bicepsicon"
+                android:onClick="Siguiente"
+                app:layout_constraintBottom_toTopOf="@+id/imageButton6"
+                app:layout_constraintEnd_toStartOf="@+id/imageButton5"
+                app:layout_constraintStart_toStartOf="parent">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="92dp"
+                android:layout_height="97dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="84dp"
+                android:layout_marginBottom="32dp"
+                android:background="@drawable/tricepsicon"
+                android:onClick="Triceps"
+                app:layout_constraintBottom_toTopOf="@+id/imageButton10"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="92dp"
+                android:layout_height="97dp"
+                android:layout_marginStart="72dp"
+                android:layout_marginEnd="71dp"
+                android:layout_marginBottom="21dp"
+                android:background="@drawable/pechoicon"
+                android:onClick="Pecho"
+                app:layout_constraintBottom_toTopOf="@+id/hombro"
+                app:layout_constraintEnd_toStartOf="@+id/imageButtones"
+                app:layout_constraintStart_toStartOf="parent"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="92dp"
+                android:layout_height="97dp"
+                android:layout_marginStart="72dp"
+                android:layout_marginEnd="86dp"
+                android:layout_marginBottom="37dp"
+                android:background="@drawable/abdomenicon"
+                android:onClick="Abdomen"
+                app:layout_constraintBottom_toTopOf="@+id/imageButton8"
+                app:layout_constraintEnd_toStartOf="@+id/imageButton10"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="92dp"
+                android:layout_height="97dp"
+                android:layout_marginEnd="84dp"
+                android:layout_marginBottom="36dp"
+                android:background="@drawable/espaldaicon"
+                android:onClick="Espalda"
+                app:layout_constraintBottom_toTopOf="@+id/imageButtones"
+                app:layout_constraintEnd_toEndOf="parent"></ImageButton>
+
+
+            <ImageButton
+                android:id="@+id/imageButtones"
+                android:layout_width="92dp"
+                android:layout_height="97dp"
+                android:layout_marginEnd="84dp"
+                android:layout_marginBottom="28dp"
+                android:background="@drawable/piernasicon"
+                android:onClick="Piernadelantera"
+                app:layout_constraintBottom_toTopOf="@+id/gluteos"
+                app:layout_constraintEnd_toEndOf="parent">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/gluteos"
+                android:layout_width="92dp"
+                android:layout_height="97dp"
+                android:layout_marginEnd="84dp"
+                android:layout_marginBottom="162dp"
+                android:background="@drawable/gluteosicon"
+                android:onClick="Gluteos"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/hombro"
+                android:layout_width="92dp"
+                android:layout_height="97dp"
+                android:layout_marginStart="72dp"
+                android:layout_marginEnd="71dp"
+                android:layout_marginBottom="29dp"
+                android:background="@drawable/hombroicon"
+                android:onClick="Hombro"
+                app:layout_constraintBottom_toTopOf="@+id/antebrazo"
+                app:layout_constraintEnd_toStartOf="@+id/gluteos"
+                app:layout_constraintStart_toStartOf="parent">
+
+            </ImageButton>
+
+
+            <ImageButton
+                android:id="@+id/antebrazo"
+                android:layout_width="92dp"
+                android:layout_height="97dp"
+                android:layout_marginStart="72dp"
+                android:layout_marginEnd="247dp"
+                android:layout_marginBottom="36dp"
+                android:background="@drawable/antebrazoicon"
+                android:onClick="Antebrazo"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+            </ImageButton>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="SELECCIONE EL MUSCULO A TRABAJAR"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

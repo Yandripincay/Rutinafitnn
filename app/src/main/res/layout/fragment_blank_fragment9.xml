@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".tabbet.BlankFragment8">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="411dp"
+        android:layout_height="529dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="49dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/biceps10"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/biceps10"
+                android:onClick="Siguiente"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/biceps11"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/biceps11"
+                android:onClick="Anterior"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/biceps12"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/biceps12"
+                android:onClick="Siguientes"></ImageButton>
+            <ImageButton
+                android:id="@+id/biceps13"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/biceps13"
+                android:onClick="Siguiente"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/biceps14"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/biceps14"
+                android:onClick="Anterior"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/biceps15"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/biceps15"
+                android:onClick="Siguientes"></ImageButton>
+            <ImageButton
+                android:id="@+id/biceps16"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/biceps16"
+                android:onClick="Siguiente"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/biceps17"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/biceps17"
+                android:onClick="Anterior"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/biceps18"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/biceps18"
+                android:onClick="Siguientes"></ImageButton>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</FrameLayout>

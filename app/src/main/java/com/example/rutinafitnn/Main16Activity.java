@@ -6,6 +6,21 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.rutinafitnn.espalda.Main47Activity;
+import com.example.rutinafitnn.espalda.Main48Activity;
+import com.example.rutinafitnn.espalda.Main49Activity;
+import com.example.rutinafitnn.espalda.Main50Activity;
+import com.example.rutinafitnn.espalda.Main51Activity;
+import com.example.rutinafitnn.espalda.Main52Activity;
+import com.example.rutinafitnn.espalda.Main53Activity;
+import com.example.rutinafitnn.espalda.Main54Activity;
+import com.example.rutinafitnn.espalda.Main55Activity;
+import com.example.rutinafitnn.espalda.Main56Activity;
+import com.example.rutinafitnn.espalda.Main57Activity;
+import com.example.rutinafitnn.espalda.Main58Activity;
+import com.example.rutinafitnn.espalda.Main59Activity;
+import com.example.rutinafitnn.espalda.Main60Activity;
+
 public class Main16Activity extends AppCompatActivity {
 
     @Override

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".tabbet.BlankFragment29">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="411dp"
+        android:layout_height="529dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="49dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/espalda12"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/espalda12"
+                android:onClick="Siguiente"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/espalda13"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/espalda13"
+                android:onClick="Anterior"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/espalda14"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/espalda14"
+                android:onClick="Siguientes"></ImageButton>
+            <ImageButton
+                android:id="@+id/espalda15"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/espalda15"
+                android:onClick="Siguientes"></ImageButton>
+            <ImageButton
+                android:id="@+id/espalda16"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/espalda16"
+                android:onClick="Siguiente"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/espalda17"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/espalda17"
+                android:onClick="Anterior"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/espalda18"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/espalda18"
+                android:onClick="Siguientes"></ImageButton>
+            <ImageButton
+                android:id="@+id/espalda19"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/espalda19"
+                android:onClick="Siguientes"></ImageButton>
+            <ImageButton
+                android:id="@+id/espalda20"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/espalda20"
+                android:onClick="Siguiente"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/espalda21"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/espalda21"
+                android:onClick="Anterior"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/espalda22"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/espalda22"
+                android:onClick="Siguientes"></ImageButton>
+            <ImageButton
+                android:id="@+id/espalda23"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/espalda23"
+                android:onClick="Siguientes"></ImageButton>
+            <ImageButton
+                android:id="@+id/espalda24"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/espalda24"
+                android:onClick="Siguientes"></ImageButton>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</FrameLayout>

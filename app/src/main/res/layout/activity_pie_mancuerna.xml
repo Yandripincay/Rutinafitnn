@@ -5,7 +5,7 @@
     android:background="@drawable/fonoappdefinitivo"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Pie_mancuerna">
+    tools:context=".biceps.Pie_mancuerna">
     <com.google.android.youtube.player.YouTubePlayerView
         android:id="@+id/video_youtube4"
         android:layout_width="250dp"

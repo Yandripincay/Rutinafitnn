@@ -5,7 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
+
+import com.example.rutinafitnn.biceps.Main10Activity;
+import com.example.rutinafitnn.biceps.Main11Activity;
+import com.example.rutinafitnn.biceps.Main12Activity;
+import com.example.rutinafitnn.biceps.Main7Activity;
+import com.example.rutinafitnn.biceps.Main8Activity;
+import com.example.rutinafitnn.biceps.Main9Activity;
+import com.example.rutinafitnn.biceps.Pie_mancuerna;
 
 public class Biceps_ejercicios extends AppCompatActivity {
 

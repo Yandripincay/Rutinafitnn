@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fonoappdefinitivo"
-    tools:context=".Main11Activity">
+    tools:context=".biceps.Main11Activity">
     <com.google.android.youtube.player.YouTubePlayerView
         android:id="@+id/video_youtube6"
         android:layout_width="250dp"

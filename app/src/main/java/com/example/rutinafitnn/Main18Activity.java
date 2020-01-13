@@ -6,6 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.rutinafitnn.gluteos.Main100Activity;
+import com.example.rutinafitnn.gluteos.Main101Activity;
+import com.example.rutinafitnn.gluteos.Main102Activity;
+import com.example.rutinafitnn.gluteos.Main103Activity;
+import com.example.rutinafitnn.gluteos.Main95Activity;
+import com.example.rutinafitnn.gluteos.Main96Activity;
+import com.example.rutinafitnn.gluteos.Main97Activity;
+import com.example.rutinafitnn.gluteos.Main98Activity;
+import com.example.rutinafitnn.gluteos.Main99Activity;
+
 public class Main18Activity extends AppCompatActivity {
 
     @Override

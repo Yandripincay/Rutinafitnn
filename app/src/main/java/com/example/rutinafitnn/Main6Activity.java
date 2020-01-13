@@ -6,6 +6,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.rutinafitnn.triceps.Main21Activity;
+import com.example.rutinafitnn.triceps.Main22Activity;
+import com.example.rutinafitnn.triceps.Main23Activity;
+import com.example.rutinafitnn.triceps.Main24Activity;
+import com.example.rutinafitnn.triceps.Main26Activity;
+import com.example.rutinafitnn.triceps.Main27Activity;
+
 public class Main6Activity extends AppCompatActivity {
 
     @Override

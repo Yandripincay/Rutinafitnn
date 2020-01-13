@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:background="@drawable/fonoappdefinitivo"
     android:layout_height="match_parent"
-    tools:context=".Main83Activity">
+    tools:context=".pierna.Main83Activity">
     <com.google.android.youtube.player.YouTubePlayerView
         android:id="@+id/video_youtube83"
         android:layout_width="250dp"

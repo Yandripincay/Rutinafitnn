@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".tabbet.BlankFragment33">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="411dp"
+        android:layout_height="529dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="49dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/gluteos9"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/gluteos9"
+                android:onClick="Siguiente"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/gluteos10"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/gluteos10"
+                android:onClick="Anterior"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/gluteos11"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/gluteos11"
+                android:onClick="Siguientes"></ImageButton>
+            <ImageButton
+                android:id="@+id/gluteos12"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/gluteos12"
+                android:onClick="Siguientes"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/gluteos13"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/gluteos13"
+                android:onClick="Siguiente"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/gluteos14"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/gluteos14"
+                android:onClick="Anterior"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/gluteos15"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/gluteos15"
+                android:onClick="Siguientes"></ImageButton>
+            <ImageButton
+                android:id="@+id/gluteos16"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/gluteos16"
+                android:onClick="Siguientes"></ImageButton>
+            <ImageButton
+                android:id="@+id/gluteos17"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/gluteos17"
+                android:onClick="Siguientes"></ImageButton>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</FrameLayout>

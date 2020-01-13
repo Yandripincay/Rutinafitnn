@@ -27,7 +27,7 @@ public class Main4Activity extends AppCompatActivity {
         mImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(Main4Activity.this,Main6Activity.class);
+                Intent i=new Intent(Main4Activity.this,Main106Activity.class);
                 startActivity(i);
             }
         });
